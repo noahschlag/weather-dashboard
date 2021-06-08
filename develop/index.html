@@ -13,19 +13,58 @@
 <p class="header">Weather Dashboard</p>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-4" id="search-div">
+                    <form class="d-flex" id="city-search">
+                        <input type="form-control me-2" type="text" placeholder="search for a city" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </nav>
 
+    <div class="card hide" id="history-card">
+        <ul class="list-group list-group-flush" id="search-history">
+
+        </ul>
+    </div>
+    </div>
+    <div class="col-12 col-md-7 col-lg-8 col-xl-9">
+
+        <div class="card-body" id="weather-body">
+
+        </div>
+
+    </div>
+    </div>
+    <div class="row hide pt-3 p-md-3" id="forecast-section">
+        <div class="col-12">
+            <h3>5-Day Forecast:</h3>
+        </div>
+        <div class="col-12">
+            <div class="row d-flex justify-content-lg-between" id="five-day">
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
 
 
 
 
 </body>
-
-</html>
