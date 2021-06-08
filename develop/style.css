@@ -1,4 +1,12 @@
 .header {
     text-align: center;
-    color: blue;
+    color: black;
+    font-size: 40px;
+    border-color: black;
+    height: 75px;
+    background-color: grey;
+    margin-top: -10px;
 }
+
+
+
